@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SoftCal" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.App.SoftCal" parent="Theme.SplashScreen">
+        <item name="android:colorPrimary">#FF79A6</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_android_black_24dp</item>
+    <item name="postSplashScreenTheme">@style/Theme.SoftCal</item>
+
+
+    </style>
+</resources>
